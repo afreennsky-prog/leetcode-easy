@@ -8,7 +8,7 @@ class Solution {
             while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
                 left++;
             }
-            // Skip non-alphanumeric characters from right
+            // Skip non-alphanumeric characters from right.
             while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
                 right--;
             }
