@@ -4,7 +4,7 @@ class Solution {
         int left = 0, right = s.length() - 1;
         
         while (left < right) {
-            // Skip non-alphanumeric characters from left
+            // Skip non-alphanumeric characters from left.
             while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
                 left++;
             }
