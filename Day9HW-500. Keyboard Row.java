@@ -4,8 +4,10 @@ class Solution {
         
         // Ovvoru character ethana row-la irukku nu map pannurom
         int[] charRow = new int[26];
-        for (int i = 0; i < rows.length; i++) {
-            for (char c : rows[i].toCharArray()) {
+        for (int i = 0; i < rows.length; i++)
+            {
+            for (char c : rows[i].toCharArray()) 
+            {
                 charRow[c - 'a'] = i;
             }
         }
